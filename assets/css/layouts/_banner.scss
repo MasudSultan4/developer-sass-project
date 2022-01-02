@@ -1,0 +1,19 @@
+.banner {
+  height: 100vh;
+  .banner-content {
+    h1 {
+      font-size: 80px;
+      color: $white;
+      line-height: 100px;
+      font-weight: 700;
+    }
+    h3 {
+      color: $white;
+      font-size: 25px;
+    }
+    a {
+      margin: 30px 5px 0 5px;
+      transition: 0.3s;
+    }
+  }
+}
