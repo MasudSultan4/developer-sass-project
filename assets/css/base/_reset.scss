@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+// FLEX style
+$flex: flex, inline-flex;
+@each $i in $flex {
+  .d-#{$i} {
+    display: $i;
+  }
+}
+
+// justify style
+
+$justify: start, center, end, evenly, space-around, space-between;
+
+@each $i in $justify {
+  .justify-content-#{$i} {
+    justify-content: $i;
+  }
+}
+
+// align style
+$align-items: start, center, end, baseline, stretch;
+
+@each $i in $align-items {
+  .align-items-#{$i} {
+    align-items: $i;
+  }
+}

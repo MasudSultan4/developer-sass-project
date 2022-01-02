@@ -1,0 +1,29 @@
+.header-area {
+  padding: 20px 0px;
+  .logo {
+    a {
+      display: inline-block;
+      text-transform: uppercase;
+      border: 1px solid $link_color;
+      padding: 15px 15px;
+      font-weight: 700;
+      font-size: 24px;
+    }
+  }
+  .menu {
+    ul {
+      li {
+        a {
+          margin-left: 20px;
+          font-size: 16px;
+          text-transform: uppercase;
+          font-weight: 600;
+          color: $link_color;
+          &:hover {
+            color: $link_hover;
+          }
+        }
+      }
+    }
+  }
+}
