@@ -1,0 +1,28 @@
+.about-area {
+  .about-img {
+    img {
+    }
+  }
+  .about-content {
+    h1 {
+      line-height: 70px;
+      font-size: 39px;
+      font-weight: 700;
+      color: $link_hover;
+    }
+    p {
+      color: $gray-800;
+      margin: 20px 0;
+    }
+    ul {
+      li {
+        color: $gray-800;
+        line-height: 40px;
+        i {
+          color: $link_hover;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

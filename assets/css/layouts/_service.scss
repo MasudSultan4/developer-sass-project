@@ -1,0 +1,64 @@
+.service-area {
+  background-color: $gray-500;
+  .service-title {
+    h1 {
+      font-size: 34px;
+      font-weight: 700;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      &::before {
+        position: absolute;
+        content: '';
+        width: 60px;
+        height: 2px;
+        background-color: $link_hover;
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      &::after {
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-color: $link_hover;
+        bottom: -19px;
+        border-radius: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+    p {
+      color: $gray-800;
+      line-height: 40px;
+    }
+  }
+  .box {
+    background-color: $white;
+    padding: 20px;
+    margin-bottom: 25px;
+    i {
+      font-size: 24px;
+      background-color: $link_hover;
+      color: white;
+      padding: 20px;
+      border-radius: 3px;
+      transition: 0.3s;
+    }
+    &:hover {
+      i {
+        border-radius: 50%;
+      }
+    }
+    h1 {
+      font-size: 25px;
+      line-height: 60px;
+    }
+    p {
+      font-size: 14px;
+      color: $gray-800;
+    }
+  }
+}
